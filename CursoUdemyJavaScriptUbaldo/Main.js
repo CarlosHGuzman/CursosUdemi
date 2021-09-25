@@ -20,7 +20,7 @@
 // console.log(numero);
 
 // //Tipo de dato object
-// var objecto = {
+// var objeto = {
 //     nombre : "Juan",
 //     apellido : "Perez",
 //     telefono : "55443322"
@@ -157,13 +157,15 @@
 // console.log(typeof simbolo);
 
 // //Tipo clase es una function
-// class Persona{
-//     constructor(nombre, apellido){
-//         this.nombre = nombre;
+//  class Persona{
+//      constructor(nombre, apellido){
+//          this.nombre = nombre;
 //         this.apellido = apellido;
-//     }
-// }
+//      }
+//  }
+// let persona = new Persona("carlos", 'Guzman')
 // console.log(typeof Persona);
+// console.log(persona.apellido)
 
 // //Tipo undefined
 // var x;
@@ -439,7 +441,7 @@
 // let edad = Number(miNumero); 
 // console.log( edad );
 
-// if( isNaN(edad)){
+// if( isNaN(edad)){ //isNan indica que va a intentar convertir el argumento a numero y si no puede arroja true
 //     console.log("No es un número");
 // }
 // else{
@@ -693,17 +695,17 @@
 // const autos = ['BMW','Mercedes Benz','Volvo'];
 // console.log(autos);
 
-// console.log(autos[0]);
-// console.log(autos[2]);
+//  console.log(autos[0]);
+//  console.log(autos[2]);
 
-// for(let i = 0; i < autos.length; i++){
-//     console.log(i + ' : ' + autos[i] );
+//  for(let i = 0; i < autos.length; i++){
+//      console.log(i + ' : ' + autos[i] );
 // }
 
-// autos[1] = 'MerecedesBenz';
+//  autos[1] = 'MerecedesBenz';
 // console.log(autos[1]);
 
-// autos.push('Audi');
+//  autos.push('Audi');
 // console.log(autos);
 // /////////////////////////////////////////////////////////////////////////////////////
 // // CLASE 40
@@ -729,8 +731,8 @@
 
 // console.log(autos);
 
-// autos[6] = 'Porshe';
-// console.log(autos);
+//  autos[6] = 'Porshe'; //Tenemos que tener cuidado con el indice que agregamos porque si nos pasamos del largo de la lista dejara espacios en blanco hasta llegar al indice que le indicamos
+//  console.log(autos);
 // /////////////////////////////////////////////////////////////////////////////////////
 // // CLASE 41
 // //let autos = new Array('BMW','Mercedes Benz','Volvo');
@@ -825,29 +827,29 @@
 // /////////////////////////////////////////////////////////////////////////////////////
 // // CLASE 46
 // //Declaración de la función
-// function miFuncion(a, b){
-//     console.log(arguments.length);
-//     return a + b;
-// }
+//  function miFuncion(a, b, c){
+//      console.log(arguments.length); //arguments.length va devolver el tamano de los argumentos que le fueron pasados
+//      return a + b;
+//  }
 
-// //Llamando a la función
-// let resultado = miFuncion(2, 3);
-// console.log(resultado);
+// // //Llamando a la función
+//  let resultado = miFuncion(2, 3);
+//  console.log(resultado);
 
-// //Declaración Función de tipo Expresión
-// let sumar = function (a, b){return a + b};
+//  //Declaración Función de tipo Expresión
+//  let sumar = function (a, b){return a + b};
 
-// resultado = sumar(1, 2);
-// console.log(resultado);
+//  resultado = sumar(1, 2);
+//  console.log(resultado);
 
-// (function (a, b){
-//     console.log('Ejecutando la función: ' + (a + b));
-// })(3, 4);
+//  (function (a, b){
+//      console.log('Ejecutando la función: ' + (a + b));
+//  })(3, 4);
 
-// console.log(typeof miFuncion);
+//  console.log(typeof miFuncion);
 
-// var miFuncionTexto = miFuncion.toString();
-// console.log(miFuncionTexto);
+//  var miFuncionTexto = miFuncion.toString();
+//  console.log(miFuncionTexto);
 // /////////////////////////////////////////////////////////////////////////////////////
 // // CLASE 47
 // //Declaración Función de tipo Expresión
@@ -925,7 +927,7 @@
 // cambiarValorObjeto( persona );
 // console.log( persona );
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 52
+// // CLASE 52 OBJETOS EN JAVASCRIPT
 // let x = 10;
 // console.log(x.length);
 
@@ -942,7 +944,7 @@
 
 // console.log(persona);
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 53
+// // CLASE 53 AGREGAR METODS A OBJETOS EN JAVASCRIPT
 // let x = 10;
 // console.log(x.length);
 
@@ -963,7 +965,7 @@
 
 // console.log(persona);
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 54
+// // CLASE 54 CREACION DE OBJETOS EN JAVASCRIPT
 // let x = 10;
 // console.log(x.length);
 
@@ -991,7 +993,7 @@
 
 // console.log( persona2.tel );
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 55
+// // CLASE 55 ACCEDER A LAS PROPIEDADES DE LOS OBJETOS EN JAVASCRIPT
 // let persona = {
 //     nombre: 'Juan',
 //     apellido: 'Perez',
@@ -1003,7 +1005,7 @@
 // }
 
 // console.log( persona.nombre);
-// console.log( persona['apellido'] );
+// console.log( persona['apellido'] ); // se puede acceder a los atributos como los arreglos solo que los nombre de estas deberan estar entre comillas
 
 // //for in
 // for( nombrePropiedad in persona){
@@ -1011,7 +1013,7 @@
 //     console.log( persona[nombrePropiedad]);
 // }
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 56
+// // CLASE 56 AGREGAR Y ELIMINAR PROPIEDADES DE UN OBJETO
 // let persona = {
 //     nombre: 'Juan',
 //     apellido: 'Perez',
@@ -1021,17 +1023,17 @@
 //         return this.nombre + ' ' + this.apellido;
 //     }
 // }
-
+// //Para agregar una nueva propiedad basta con coloar el objeto.propiedad = valor 
 // persona.tel = '55443322';
 // persona.tel = '44332211';
 
 // console.log( persona );
-
+// // con delete objeto.propiedad podemos eliminar propiedades del objeto ya existente
 // delete persona.tel;
 
 // console.log( persona );
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 57
+// // CLASE 57 DISTINTASFORMSA DE IMPRIMIR UN OBJECT EN JAVASCRIPT
 // let persona = {
 //     nombre: 'Juan',
 //     apellido: 'Perez',
@@ -1056,16 +1058,18 @@
 
 // //for in
 // for( nombrePropiedad in persona){
+//     //objeto[nombrePropiedad];
 //     console.log( persona[nombrePropiedad]);
 // }
-
+// //Object.values(objeto) lo que hara es devolver los valores que tiene nuestro objeto
 // let personaArray = Object.values( persona );
 // console.log( personaArray );
 
+// // variable = JSON.stringify(objeto); convertira nuestro objeto en un diccionario propiedad: valor
 // let personaString = JSON.stringify( persona );
 // console.log( personaString );
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 58
+// // CLASE 58 METODO GET EN OBJETOS EN JAVASCRIPT
 // let persona = {
 //     nombre: 'Juan',
 //     apellido: 'Perez',
@@ -1075,10 +1079,11 @@
 //         return this.nombre + ' ' + this.apellido;
 //     }
 // }
-
-// console.log( persona.nombreCompleto );
+// //Normalmente cuando queremos acceder a un metodo se debe colocar los parentesis
+// //sin embargo gracias al metodo get nombreMetodo(){codigo} podemos acceder sin necesidad de colocar los parentesis al final 
+// console.log( persona.nombreCompleto);
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 59
+// // CLASE 59 METODO SET EN OBJETOS DE JAVASCRIPT
 // let persona = {
 //     nombre: 'Juan',
 //     apellido: 'Perez',
@@ -1103,9 +1108,10 @@
 // console.log( persona.lang );//se llama metodo get lang
 // console.log( persona.idioma );
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 60
+// // CLASE 60 METODO CONSTRUCTOR OBJETOS EN JAVASCRIPT
 // //Funcion constructor de objetos de tipo Persona
 // function Persona(nombre, apellido, email){
+//     //this.propiedad = parametro o argumento;
 //     this.nombre = nombre;
 //     this.apellido = apellido;
 //     this.email = email;
@@ -1122,7 +1128,7 @@
 // console.log( padre );
 // console.log( madre );
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 61
+// // CLASE 61 AGREGAR METODOS A UN METODO CONSTRUCTOR DE OBJETOS
 // //Funcion constructor de objetos de tipo Persona
 // function Persona(nombre, apellido, email){
 //     this.nombre = nombre;
@@ -1145,7 +1151,7 @@
 // console.log( madre );
 
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 62
+// // CLASE 62 DISTINTA FORMAS DE CREAR OBJETOS EN JAVASCRIPT
 // //Funcion constructor de objetos de tipo Persona
 // function Persona(nombre, apellido, email){
 //     this.nombre = nombre;
@@ -1173,19 +1179,20 @@
 // let miCadena1 = new String('Hola');
 // let miCadena2 = 'Hola';
 
-// let miNumero = new Number(1);
+// let miNumero = new Number(1); 
 // let miNumero2 = 1;
 
 // let miBoolean = new Boolean(false);
-// let miBoolean = false;
+// let miBoolean2 = false;
 
 // let miArreglo1 = new Array();
 // let miArreglo2 = [];
 
+
 // let miFuncion = new Function();
 // let miFuncion2 = function(){};
 // /////////////////////////////////////////////////////////////////////////////////////
-// // CLASE 63
+// // CLASE 63 QUEDE ACA USO DE PROTOTYPE EN JAVASCRITP
 // //Funcion constructor de objetos de tipo Persona
 // function Persona(nombre, apellido, email){
 //     this.nombre = nombre;
