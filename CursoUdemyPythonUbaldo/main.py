@@ -737,3 +737,31 @@
 
 # CLASE 57 ROBUSTECIENDO EL METODO INIT
 # Se encuentra en la clase Persona.py
+
+
+# CLASE 58 ENCAPSULAMIENTO EN PYTHON
+# Se enceuntra en la clase Persona.py
+
+
+# CLASE 59 METODOS GET Y SET EN PYTHON
+# Se enceuntra en la clase Persona.py
+
+
+# CLASE 60 ATRIBUTOS READ-ONLY(SOLO LECTURA) EN PYTHON
+# Se encuentra en la clase Persona.py
+
+
+# CLASE 61 ENCAPSULANDO TODOS LOS ATRIBUTOS DE UNA CLASE
+# SE encuentra en la clase Persona.py
+
+
+# CLASE 62 USO DE MODULOS Y CLASES EN PYTHON
+# Se encuentra en la clase Persona.py el esqueleto y en la PruebaPersona.py
+
+
+# CLASE 63 COMPROBACION DEL MODULO PRINCIPAL EN PYTHON
+# Se encuentra en la clase Persona.py el esqueleto y en la PruebaPersona.py
+
+
+# CLASE 64 DESTRUCTOR DE OBJETOS EN PYTHON
+# Se encuentra en la clase Persona.py el esqueleto y en la PruebaPersona.py
