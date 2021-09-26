@@ -68,11 +68,11 @@
 
 
 # CLASE 52 MOFICIAR LOS ATRIBUTOS DE UN OJBETO
-class Persona:
-    def __init__(self, nombre, apellido, edad):
-        self.nombre = nombre
-        self.apellido = apellido
-        self.edad = edad
+# class Persona:
+#     def __init__(self, nombre, apellido, edad):
+#         self.nombre = nombre
+#         self.apellido = apellido
+#         self.edad = edad
 
 
 # Se deben pasar los argumentos que especificamos en el constructor __init__
@@ -348,56 +348,258 @@ class Persona:
 
 
 # CLASE 64 DESTRUCTOR DE OBJETOS EN PYTHON
-class Persona:
-    def __init__(self, nombre, apellido, edad):
-        # Cuando se coloca _ significa que el atributo esta encapsulado
-        # Ejemplos _nombre esto si permitira la modificacion pero sera como una indicacion que no se debe de hacer
-        # __nombre no permitira hacer la modificacion fuera de la clase pero no es lo mas comun
-        self._nombre = nombre
-        self._apellido = apellido
-        self._edad = edad
+# class Persona:
+#     def __init__(self, nombre, apellido, edad):
+#         # Cuando se coloca _ significa que el atributo esta encapsulado
+#         # Ejemplos _nombre esto si permitira la modificacion pero sera como una indicacion que no se debe de hacer
+#         # __nombre no permitira hacer la modificacion fuera de la clase pero no es lo mas comun
+#         self._nombre = nombre
+#         self._apellido = apellido
+#         self._edad = edad
+#
+#     # Decorador indica que vamos a cambiar el comportamiento de nuestro metodo
+#     # En general permite no colocar los parentesis al final de la llamada
+#     @property
+#     def nombre(self):
+#         return self._nombre
+#
+#     @nombre.setter
+#     def nombre(self, nombre):
+#         self._nombre = nombre
+#
+#     @property
+#     def apellido(self):
+#         return self._apellido
+#
+#     @apellido.setter
+#     def apellido(self, apellido):
+#         self._apellido = apellido
+#
+#     @property
+#     def edad(self):
+#         return self._edad
+#
+#     @edad.setter
+#     def edad(self, edad):
+#         self._edad = edad
+#
+#     def mostrar_detalles(self):
+#         print(f'Persona: {self._nombre} {self._apellido} {self._edad}')
+#
+#     # DECONSTRUCTOR
+#     def __del__(self):
+#         print(f'Persona: {self._nombre} {self._apellido}')
+#
+# if __name__ == '__main__':
+#     persona1 = Persona('Carlos', "Guzman", 18)
+#     # persona1._nombre = "nombre" # Si realmente queremos demostrar que sabemos programar esto no se utilizara
+#     persona1.nombre = 'CArlos HUmberto'  # si no tenemos un metodo set asociado no se podra hacer el cambio
+#
+#     persona1.apellido = "Ramirez"
+#     persona1.edad = 20
+#     persona1.nombre = "Humberto"
+#     persona1.mostrar_detalles()
+#
+# # print(__name__)  # Esto es para saber desde dode se esta ejecutando
 
-    # Decorador indica que vamos a cambiar el comportamiento de nuestro metodo
-    # En general permite no colocar los parentesis al final de la llamada
-    @property
-    def nombre(self):
-        return self._nombre
 
-    @nombre.setter
-    def nombre(self, nombre):
-        self._nombre = nombre
+# CLASE 65 EJEMPLO DE HERENCIA EN PYTHON
+# class Persona:
+#     def __init__(self, nombre, edad):
+#         self._nombre = nombre
+#         self._edad = edad
+#
+#     @property
+#     def nombre(self):
+#         return self._nombre
+#
+#     @nombre.setter
+#     def nombre(self, nombre):
+#         self._nombre = nombre
+#
+#     @property
+#     def edad(self):
+#         return self._edad
+#
+#     @edad.setter
+#     def edad(self, edad):
+#         self._edad = edad
+#
+#
+# # class Clase(clasePadre):
+# # Codigo
+# class Empleado(Persona):
+#     #super().metodo o atributo permite acceder a los metodos o atributos de la clase padre
+#     def __init__(self, nombre, edad, sueldo):
+#         super().__init__(nombre, edad)
+#         self._sueldo = sueldo
+#
+#     @property
+#     def sueldo(self):
+#         return self._sueldo
+#
+#     @sueldo.setter
+#     def sueldo(self, sueldo):
+#         self._sueldo = sueldo
+#
+#
+# empleado1 = Empleado("Carlos Guzman", 18, 50000)
+# print(empleado1.nombre)
+# print(empleado1.edad)
+# print(empleado1.sueldo)
 
-    @property
-    def apellido(self):
-        return self._apellido
 
-    @apellido.setter
-    def apellido(self, apellido):
-        self._apellido = apellido
+# CLASE 66 SOBREESCRITURA DEL METODO __str__() EN PYTHON
+# class Persona:
+#     def __init__(self, nombre, edad):
+#         self._nombre = nombre
+#         self._edad = edad
+#
+#     @property
+#     def nombre(self):
+#         return self._nombre
+#
+#     @nombre.setter
+#     def nombre(self, nombre):
+#         self._nombre = nombre
+#
+#     @property
+#     def edad(self):
+#         return self._edad
+#
+#     @edad.setter
+#     def edad(self, edad):
+#         self._edad = edad
+#
+#     def __str__(self):
+#         return f'Persona: {self._nombre} {self._edad}'
+#
 
-    @property
-    def edad(self):
-        return self._edad
+# class Clase(clasePadre):
+# Codigo
+# class Empleado(Persona):
+#     #super().metodo o atributo permite acceder a los metodos o atributos de la clase padre
+#     def __init__(self, nombre, edad, sueldo):
+#         super().__init__(nombre, edad)
+#         self._sueldo = sueldo
+#
+#     @property
+#     def sueldo(self):
+#         return self._sueldo
+#
+#     @sueldo.setter
+#     def sueldo(self, sueldo):
+#         self._sueldo = sueldo
+#
+#     def __str__(self):
+#         return f'{super().__str__()} {self._sueldo}'.center(10, '-')
+#
+#
+# if __name__ == '__main__':
+#     empleado1 = Empleado("Carlos Guzman", 18, 50000)
+#     print(empleado1.nombre)
+#     print(empleado1.edad)
+#     print(empleado1.sueldo)
 
-    @edad.setter
-    def edad(self, edad):
-        self._edad = edad
 
-    def mostrar_detalles(self):
-        print(f'Persona: {self._nombre} {self._apellido} {self._edad}')
-
-    # DECONSTRUCTOR
-    def __del__(self):
-        print(f'Persona: {self._nombre} {self._apellido}')
-
-if __name__ == '__main__':
-    persona1 = Persona('Carlos', "Guzman", 18)
-    # persona1._nombre = "nombre" # Si realmente queremos demostrar que sabemos programar esto no se utilizara
-    persona1.nombre = 'CArlos HUmberto'  # si no tenemos un metodo set asociado no se podra hacer el cambio
-
-    persona1.apellido = "Ramirez"
-    persona1.edad = 20
-    persona1.nombre = "Humberto"
-    persona1.mostrar_detalles()
-
-# print(__name__)  # Esto es para saber desde dode se esta ejecutando
+# TAREA: EJERCICIO HERENCIA EN PYTHON
+# class Vehiculo(object):
+#     def __init__(self, color, ruedas):
+#         self._color = color
+#         self._ruedas = ruedas
+#
+#     @property
+#     def color(self):
+#         return self._color
+#
+#     @color.setter
+#     def color(self, color):
+#         self._color = color
+#
+#     @property
+#     def ruedas(self):
+#         return self._ruedas
+#
+#     @ruedas.setter
+#     def ruedas(self, ruedas):
+#         self._ruedas = ruedas
+#
+#     def __str__(self):
+#         return f"Vehiculo [color: {self._color}, ruedas: {self._ruedas}]"
+#
+# class Coche(Vehiculo):
+#     def __init__(self, color, ruedas, velocidad):
+#         super().__init__(color, ruedas)
+#         self._velocidad = velocidad
+#
+#     @property
+#     def velocidad(self):
+#         return self._velocidad
+#
+#     @velocidad.setter
+#     def velocidad(self, velocidad):
+#         self._velocidad = velocidad
+#
+#     def __str__(self):
+#         return f'Coche[velocidad: {self._velocidad}, {super().__str__()}]'
+#
+#
+# class Bicicleta(Vehiculo):
+#     def __init__(self, color, ruedas, tipo):
+#         super().__init__(color, ruedas)
+#         self._tipo = tipo
+#
+#     @property
+#     def tipo(self):
+#         return self._tipo
+#
+#     @tipo.setter
+#     def tipo(self, tipo):
+#         self._tipo = tipo
+#
+#     def __str__(self):
+#         return f'Bicicleta[tipo: {self._tipo}, {super().__str__()}]'
+#
+# vehiculos = []
+#
+# def menu():
+#     print("Bienvenido".center(50, '-'))
+#     print("""
+# 1. Ingresar un vehiculo
+# 2. Ingresar un coche
+# 3. Ingresar una bicicleta
+# 4. ListarTodo
+# 5. Salir
+#     """)
+#
+#
+# def pedir_datos(opc):
+#     color = str(input("Ingrese un color para el vehiculo: "))
+#     rueda = int(input("Ingrese la cantidad de ruedas: "))
+#     if opc == 2:
+#         velocidad = float(input("Ingrese la velocidad del coche km/h: "))
+#         coche = Coche(color, rueda, velocidad)
+#         vehiculos.append(coche)
+#     elif opc == 3:
+#         tipo = str(input("Ingrese el tipo de bicicleta: "))
+#         bicicleta = Bicicleta(color, rueda, tipo)
+#         vehiculos.append(bicicleta)
+#     else:
+#         vehiculo = Vehiculo(color, rueda)
+#         vehiculos.append(vehiculo)
+#     return vehiculos
+#
+#
+# opc = 'si'
+#
+# while opc == 'si':
+#     menu()
+#     opc = int(input("Ingrese una opcion: "))
+#     if opc == 1 or opc == 2 or opc == 3:
+#         pedir_datos(opc)
+#     elif opc == 4:
+#         for i in vehiculos:
+#             print(i)
+#     else:
+    #         print("Opcion invalida")
+    #     opc = str(input("Deseas seguir (si/no....): ")).lower()

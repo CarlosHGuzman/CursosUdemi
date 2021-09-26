@@ -688,80 +688,116 @@
 
 
 # CLASE 47 CLASES Y OBJETOS
-# El ejercicio se encuentra en la clase Persona.py
+# El ejercicio se encuentra en el archivo Persona.py
 
 
 # CLASE 48 CLASES Y OBJETOS PARTE 2
-# Esta en la clase Persona.py
+# Esta en el archivo Persona.py
 
 
 # CLASE 49 CLASES Y OBJETOS CON PASO DE ARGUMENTOS
-# Esta en la clase de Persona.py
+# Esta en el archivo de Persona.py
 
 
 # CLASE 50 CREACION DE MAS OBJETOS DE UNA CLASE
-# Esta en la clase de Persona.py
+# Esta en el archivo de Persona.py
 
 
 # CLASE 51 REFERENCIA DE MEMORIA DE OBJETOS  Y EJECUCICIO PASO A PASO
-# Esta en la clase de Persona.py
+# Esta en el archivo de Persona.py
 
 
 # CLASE 52 MODIFICAR ATRIBUTOS DE UN OBJETO
-# Esta en la clase de Persona.py
+# Esta en el archivo de Persona.py
 
 
 # CLASE 53 METODOS DE INTANCIA EN PYTHON
-# Esta en la clase de Persona.py
+# Esta en el archivo de Persona.py
 
 
 # CLASE 54 MAS DE self Y ATRIBUTOS DE INSTANCIA EN PYTHON
-# ESta en la clase de Persona.py
+# ESta en el archivo de Persona.py
 
 
 # CLASE 55 EJERCICIO CLASE ARITMETICA
-# ESta en la clase de Aritmetica.py
+# ESta en el archivo de Aritmetica.py
 
 
 # CLASE 56 EJERCICIO CLASE ARITMETICA
-# ESta en la clase de Aritmetica.py
+# ESta en el archivo de Aritmetica.py
 
 
 # TAREA LABORATORIO RECTANGULO
-# Se encuentra en la clase Aritmetica.py
+# Se encuentra en el archivo Aritmetica.py
 
 
 # TAREA LABORATORIO CUBO
-# Se encuentra en la clase Aritmetica.py
+# Se encuentra en el archivo Aritmetica.py
 
 
 # CLASE 57 ROBUSTECIENDO EL METODO INIT
-# Se encuentra en la clase Persona.py
+# Se encuentra en el archivo Persona.py
 
 
 # CLASE 58 ENCAPSULAMIENTO EN PYTHON
-# Se enceuntra en la clase Persona.py
+# Se enceuntra en el archivo Persona.py
 
 
 # CLASE 59 METODOS GET Y SET EN PYTHON
-# Se enceuntra en la clase Persona.py
+# Se enceuntra en el archivo Persona.py
 
 
 # CLASE 60 ATRIBUTOS READ-ONLY(SOLO LECTURA) EN PYTHON
-# Se encuentra en la clase Persona.py
+# Se encuentra en el archivo Persona.py
 
 
 # CLASE 61 ENCAPSULANDO TODOS LOS ATRIBUTOS DE UNA CLASE
-# SE encuentra en la clase Persona.py
+# SE encuentra en el archivo Persona.py
 
 
 # CLASE 62 USO DE MODULOS Y CLASES EN PYTHON
-# Se encuentra en la clase Persona.py el esqueleto y en la PruebaPersona.py
+# Se encuentra en el archivo Persona.py el esqueleto y en la PruebaPersona.py
 
 
 # CLASE 63 COMPROBACION DEL MODULO PRINCIPAL EN PYTHON
-# Se encuentra en la clase Persona.py el esqueleto y en la PruebaPersona.py
+# Se encuentra en el archivo Persona.py el esqueleto y en la PruebaPersona.py
 
 
 # CLASE 64 DESTRUCTOR DE OBJETOS EN PYTHON
-# Se encuentra en la clase Persona.py el esqueleto y en la PruebaPersona.py
+# Se encuentra en el archivo Persona.py el esqueleto y en la PruebaPersona.py
+
+
+# CLASE 65 EJEMPLO DE HERENCIA EN PYTHON
+# Se encuentra en el archivo Persona.py
+
+
+# CLASE 66 SOBREESCRITURA DEL METODO __str__() EN PYTHON
+# Se encuentra en el archivo Persona.py el esqueleto y en el ClientePersona.py
+
+
+# TAREA: EJERCICIO HERENCIA EN PYTHON
+# Se encuentra en el archivo Persona.py
+
+
+# CLASE 67 HERENCIA MULTIPLE EN PYTHON
+# Se encuentra en el archivo FiguraGeometrica.py y Color.py
+
+
+# CLASE 68 HERENCIA MULTIPLE EN PYTHON PARTE 2
+# Se encuentra en el archivo FiguraGeometrica.py, Color.py y Cuadrado.py
+
+
+# CLASE 69 HERENCIA MULTIPLE EN PYTHON PARTE 3
+# Se encuentra en el archivo FiguraGeometrica.py, Color.py, Cuadrado.py y test_figura_geometrica.py
+
+
+# CLASE 70 METODO MRO - METHOD RESOLUTION ORDER EN PYTHON
+# Se encuentra en el archivo FiguraGeometrica.py, Color.py, Cuadrado.py y test_figura_geometrica.py
+
+
+# LABORATORIO: FIGURA GEOMETRICA
+# Se encuentra en el archivo FiguraGeometrica.py, Color.py, Cuadrado.py y test_figura_geometrica.py
+
+
+# LABORATORIO: FIGURA GEOMETRICA SOLUCION UBALDO
+# Se encuentra en el archivo FiguraGeometrica.py, Color.py, Cuadrado.py y test_figura_geometrica.py
