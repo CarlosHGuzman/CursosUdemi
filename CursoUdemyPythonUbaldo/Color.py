@@ -80,17 +80,33 @@
 
 
 # LABORATORIO: FIGURA GEOMETRICA SOLUCION UBALDO
-class Color:
-    def __init__(self, color):
-        self._color = color
+# class Color:
+#     def __init__(self, color):
+#         self._color = color
+#
+#     @property
+#     def color(self):
+#         return self._color
+#
+#     @color.setter
+#     def color(self, color):
+#         self._color = color
+#
+#     def __str__(self):
+#         return f'Color[color: {self._color}]'
 
-    @property
-    def color(self):
-        return self._color
-
-    @color.setter
-    def color(self, color):
-        self._color = color
-
-    def __str__(self):
-        return f'Color[color: {self._color}]'
+# CLASE 71 CLASES ABSTRACTAS EN PYTHON
+# class Color:
+#     def __init__(self, color):
+#         self._color = color
+#
+#     @property
+#     def color(self):
+#         return self._color
+#
+#     @color.setter
+#     def color(self, color):
+#         self._color = color
+#
+#     def __str__(self):
+#         return f'Color[color: {self._color}]'

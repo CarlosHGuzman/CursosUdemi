@@ -801,3 +801,40 @@
 
 # LABORATORIO: FIGURA GEOMETRICA SOLUCION UBALDO
 # Se encuentra en el archivo FiguraGeometrica.py, Color.py, Cuadrado.py y test_figura_geometrica.py
+
+
+# CLASE 71 CLASES ABSTRACTAS EN PYTHON
+# Se encuentra en el archivo FiguraGeometrica.py, Color.py, Cuadrado.py y test_figura_geometrica.py
+# No se pueden crear objetos de una clase abstracta y todos los metodos que se encuentre alli se deberan de sobreescribir
+
+
+# CLASE 72 VARIABLES DE CLASE EN PYTHON
+# Se encuentra en el archivo MIclase.py
+
+
+# CLASE 73 CREACION DE VARIABLES DE CLASE AL VUELO EN PYTHON
+# Se encuentra en el archivo Miclase.py
+
+
+# CLASE 74 METODOS ESTATICOS EN PYTHON
+# Se encuentra en el archivo Miclase.py
+
+
+# CLASE 75 METODOS DE CLASE EN PYTHON
+# Se encuentra en el archivo Miclase.py
+
+
+# CLASE 76 CONTEXTO ESTATICO Y DINAMICO EN PYTHON
+# Se encuentra en el archivo Miclase.py
+
+
+# CLASE 76 CONSTANTES EN PYTHON
+# Se encuentra en el archivo Constantes.py
+
+
+# CLASE 77 EJERCICIO CONTADOR OBJETOS
+# Se encuentra en el archivo Persona.py
+
+
+# CLASE 78 POSIBLE MEJORA EJERCICIO CONTADOR PERSONA
+# Se encuentra en el archivo Persona.py

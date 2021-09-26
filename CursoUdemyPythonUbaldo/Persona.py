@@ -603,3 +603,89 @@
 #     else:
     #         print("Opcion invalida")
     #     opc = str(input("Deseas seguir (si/no....): ")).lower()
+
+
+# CLASE 77 EJERCICIO CONTADOR OBJETOS
+# class Persona:
+#     contador_persona = 0
+#
+#     def __init__(self, nombre, edad):
+#         Persona.contador_persona += 1
+#         self.id_persona = Persona.contador_persona
+#         self.__nombre = nombre
+#         self.__edad = edad
+#
+#     @property
+#     def nombre(self):
+#         return self.__nombre
+#     @nombre.setter
+#     def nombre(self, nombre):
+#         self.__nombre = nombre
+#
+#     @property
+#     def edad(self):
+#         return self.__edad
+#     @edad.setter
+#     def edad(self, edad):
+#         self.__edad = edad
+#
+#     @classmethod
+#     def imprimirContador(cls):
+#         print(cls.contador_persona)
+#
+#     def __str__(self):
+#         return f'Persona[id Persona: {self.id_persona}, Nombre: {self.__nombre}, edad: {self.__edad}'
+#
+#
+# persona1 = Persona("Carlos", 18)
+# print(persona1)
+# persona2 = Persona("CArlos", 19)
+# print(persona2)
+# persona3 = Persona("CArloS", 22)
+# print(persona3)
+
+
+# CLASE 78 POSIBLE MEJORA EJERCICIO CONTADOR PERSONA
+class Persona:
+
+    contador_persona = 0
+
+    def __init__(self, nombre, edad):
+        self.id_persona = Persona.generar_siguiente_valor()
+        self.__nombre = nombre
+        self.__edad = edad
+
+    @property
+    def nombre(self):
+        return self.__nombre
+
+    @nombre.setter
+    def nombre(self, nombre):
+        self.__nombre = nombre
+
+    @property
+    def edad(self):
+        return self.__edad
+
+    @edad.setter
+    def edad(self, edad):
+        self.__edad = edad
+
+    @classmethod
+    def generar_siguiente_valor(cls):
+        cls.contador_persona += 1
+        return cls.contador_persona
+
+    def __str__(self):
+        return f'Persona[id Persona: {self.id_persona}, Nombre: {self.__nombre}, edad: {self.__edad}'
+
+
+persona1 = Persona("Carlos", 18)
+print(persona1)
+persona2 = Persona("CArlos", 19)
+print(persona2)
+persona3 = Persona("CArloS", 22)
+print(persona3)
+Persona.generar_siguiente_valor()
+persona4 = Persona('Humberto', 18)
+print(persona4)

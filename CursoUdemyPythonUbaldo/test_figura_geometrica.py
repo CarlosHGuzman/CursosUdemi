@@ -44,18 +44,43 @@
 
 
 # LABORATORIO: FIGURA GEOMETRICA SOLUCION UBALDO
-from Cuadrado import Cuadrado
-from Rectangulo import Rectangulo
+# from Cuadrado import Cuadrado
+# from Rectangulo import Rectangulo
+#
+# print('Creación Objeto cuadrado'.center(50,'-'))
+# cuadrado1 = Cuadrado(lado=5, color='rojo')
+# cuadrado1.alto = 9
+# cuadrado1.ancho = 9
+# print(f'Cálculo área cuadrado: {cuadrado1.calcular_area()}')
+# print(cuadrado1)
+#
+# print('Creación Objeto rectángulo'.center(50,'-'))
+# rectangulo1 = Rectangulo(ancho=9, alto=8, color='verde')
+# rectangulo1.ancho = 15
+# print(f'Cálculo área rectángulo: {rectangulo1.calcular_area()}')
+# print(rectangulo1)
 
-print('Creación Objeto cuadrado'.center(50,'-'))
-cuadrado1 = Cuadrado(lado=5, color='rojo')
-cuadrado1.alto = 9
-cuadrado1.ancho = 9
-print(f'Cálculo área cuadrado: {cuadrado1.calcular_area()}')
-print(cuadrado1)
 
-print('Creación Objeto rectángulo'.center(50,'-'))
-rectangulo1 = Rectangulo(ancho=9, alto=8, color='verde')
-rectangulo1.ancho = 15
-print(f'Cálculo área rectángulo: {rectangulo1.calcular_area()}')
-print(rectangulo1)
+# CLASE 71 CLASES ABSTRACTAS EN PYTHON
+# from Cuadrado import Cuadrado
+# from Rectangulo import Rectangulo
+#
+# print('Creación Objeto cuadrado'.center(50,'-'))
+# cuadrado1 = Cuadrado(lado=5, color='rojo')
+# # cuadrado1.alto = 9 # Ya no podemos moficar el valor del atributo debido a que eliminamos el metodo set
+# # cuadrado1.ancho = 9
+# print(f'Cálculo área cuadrado: {cuadrado1.calcular_area()}') # En el caso de que no tengamos definido el metodo abstracto en la clase hija no se podra utilizar el metodo Error
+# print(cuadrado1)
+#
+# print('Creación Objeto rectángulo'.center(50,'-'))
+# rectangulo1 = Rectangulo(ancho=9, alto=8, color='verde')
+# # rectangulo1.ancho = 15 # Ya no podmeos moficar el valor del atributo debido a que eliminamos el metodo set
+# print(f'Cálculo área rectángulo: {rectangulo1.calcular_area()}')
+# print(rectangulo1)
+#
+# print(Cuadrado.mro())
+
+# Toda una clase se convierte en abstracta siempre que se tenga un metodo abstracto
+# No se pude instaciar una clase abstracta
+# from FiguraGeometrica import FiguraGeometrica
+# figura = FiguraGeometrica()
