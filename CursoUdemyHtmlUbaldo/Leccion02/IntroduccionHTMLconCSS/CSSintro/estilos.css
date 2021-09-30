@@ -2,6 +2,19 @@ h1{
     color: blue;
 }
 p{
+    background-color:  crimson;
     color: white;
-    background-color: crimson;
+    padding: 15px;
+    border: 10px solid powderblue;
+    /* margin: 50px;  */
+    /* margin-top: 40px;
+    margin-right: 10px;
+    margin-bottom: 20px; 
+    margin-left: 10px;*/
+    /*background-color: crimson;*/
+    /* top rigth abajo izquierda*/
+    /* Si son iguales los tamaños de izquierda y derecha se dejar solo uno lo mismo para arriba y abajo*/
+    /* margin: 40px 10px 20px 10px; */
+    margin: auto 50px; /*Esto hace que se centre en left right*/
+    text-align: center; /* Se utiliza para centrar el texto en una direccion*/
 }
