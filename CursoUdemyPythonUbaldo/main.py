@@ -861,3 +861,16 @@
 
 # CLASE 83 SOBRECARGA DE OPERADORES EN PYTHON - PARTE 2
 # Se encuentra en el archivo de sobrecargar_operadores.py y Persona.py
+
+
+# CLASE 84 POLIMOFRISMO EN PYTHON - PARTE 1
+# Se encuentra en el archivo Gerente.py y Empleado.py
+
+
+# CLASE 85 POLIMOFRISMO EN PYTHON - PARTE 2
+# Se encuentra en el archivo Gerente.py, Empleado.py y test_polimorfismo
+
+
+# CLASE 86 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
+# Se encuentra en el archivo Gerente.py, Empleado.py y test_polimorfismo
+# from TareaMundoPc.DispositivoEntrada import Persona
