@@ -694,3 +694,42 @@
 # utilizando el método __init__. Calcular después la suma, resta, multiplicación
 # y division. Utilizar un método para cada una e imprimir los resultados
 # obtenidos. LLamar a la clase Calculadora.
+
+
+# CLASE 83 SOBRECARGA DE OPERADORES EN PYTHON - PARTE 2
+# class Persona:
+#     def __init__(self, nombre, edad):
+#         self.__nombre = nombre
+#         self.__edad = edad
+#
+#     @property
+#     def nombre(self):
+#         return self.__nombre
+#
+#     @nombre.setter
+#     def nombre(self, nombre):
+#         self.__nombre = nombre
+#
+#     @property
+#     def edad(self):
+#         return self.__edad
+#
+#     @edad.setter
+#     def edad(self, edad):
+#         self.__edad = edad
+#
+#     # add = addition (suma)
+#     def __add__(self, other):
+#         return f'{self.nombre} {other.nombre}'
+#
+#     # sub = subtraction (resta)
+#     def __sub__(self, other):
+#         return f'{self.edad - other.edad} '
+#
+#
+# persona1 = Persona('Carlos', 18)
+# persona2 = Persona('HUmberto', 21)
+# print(persona1 + persona2)
+# print(persona1 - persona2)
+# # obj1 + obj2
+# # obj1.__add__(obj2)

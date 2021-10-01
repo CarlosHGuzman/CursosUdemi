@@ -838,3 +838,26 @@
 
 # CLASE 78 POSIBLE MEJORA EJERCICIO CONTADOR PERSONA
 # Se encuentra en el archivo Persona.py
+
+
+# Clase 79 DISEÑO DE CLASES EN PYTHON
+# Mostrando el diagrama UML se encuentra en disenio_clases.png
+
+# CLASE 80 CREACION CLASE PRODUCTO
+# Se encuentra en el archivo Producto.py
+
+
+# CLASE 80 CREACION CLASE ORDEN
+# Se encuentra en el archivo Producto.py y Orden.py
+
+
+# CLASE 81 PRUEBA DE LAS CLASES ORDENES Y PRODUCTOS
+# Se encuentra en el archivo Producto.py y Orden.py
+
+
+# CLASE 82 SOBRECARGA DE OPERADORES EN PYTHON
+# Se encuentra en el archivo de sobrecargar_operadores.py
+
+
+# CLASE 83 SOBRECARGA DE OPERADORES EN PYTHON - PARTE 2
+# Se encuentra en el archivo de sobrecargar_operadores.py y Persona.py
