@@ -94,7 +94,7 @@
 # print(f'Objeto persona 2: {persona2.nombre} {persona2.apellido} {persona2.edad}')
 
 
-# CLASE 53 METODOS DE INTANCIA EN PYTHON
+# CLASE 53 METODOS DE INSTANCIA EN PYTHON
 # class Persona:
 #     def __init__(self, nombre, apellido, edad):
 #         self.nombre = nombre
@@ -339,7 +339,7 @@
 #
 # persona1 = Persona('Carlos', "Guzman", 18)
 # # persona1._nombre = "nombre" # Si realmente queremos demostrar que sabemos programar esto no se utilizara
-# persona1.nombre = 'CArlos HUmberto'  # si no tenemos un metodo set asociado no se podra hacer el cambio
+# persona1.nombre = 'CArlos HUmberto'  # si no tenemos un metodo set asociado no se podra hacer el cambio, bueno no se deberia  de hacer
 #
 # persona1.apellido = "Ramirez"
 # persona1.edad = 20

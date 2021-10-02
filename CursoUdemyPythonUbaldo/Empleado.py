@@ -1,4 +1,4 @@
-# CLASE 84 POLIMOFRISMO EN PYTHON - PARTE 1
+# CLASE 85 POLIMOFRISMO EN PYTHON - PARTE 1
 # class Empleado:
 #     def __init__(self, nombre, sueldo):
 #         self.__nombre = nombre
@@ -24,7 +24,7 @@
 #         return f'Empleado: [Nombre: {self.nombre}, Sueldo: {self.sueldo}]'
 
 
-# CLASE 85 POLIMOFRISMO EN PYTHON - PARTE 2
+# CLASE 86 POLIMOFRISMO EN PYTHON - PARTE 2
 # class Empleado:
 #     def __init__(self, nombre, sueldo):
 #         self.__nombre = nombre
@@ -53,7 +53,7 @@
 #         return self.__str__()
 
 
-# CLASE 86 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
+# CLASE 87 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
 class Empleado:
     def __init__(self, nombre, sueldo):
         self.__nombre = nombre

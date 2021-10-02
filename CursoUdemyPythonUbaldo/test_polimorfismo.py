@@ -1,4 +1,4 @@
-# CLASE 85 POLIMOFRISMO EN PYTHON - PARTE 2
+# CLASE 86 POLIMOFRISMO EN PYTHON - PARTE 2
 # from Empleado import Empleado
 # from Gerente import Gerente
 #
@@ -15,7 +15,7 @@
 # imprimir_detalles(gerente)
 
 
-# CLASE 86 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
+# CLASE 87 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
 from Empleado import Empleado
 from Gerente import Gerente
 

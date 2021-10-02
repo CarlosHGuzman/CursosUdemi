@@ -847,31 +847,31 @@
 # Se encuentra en el archivo Producto.py
 
 
-# CLASE 80 CREACION CLASE ORDEN
+# CLASE 81 CREACION CLASE ORDEN
 # Se encuentra en el archivo Producto.py y Orden.py
 
 
-# CLASE 81 PRUEBA DE LAS CLASES ORDENES Y PRODUCTOS
+# CLASE 82 PRUEBA DE LAS CLASES ORDENES Y PRODUCTOS
 # Se encuentra en el archivo Producto.py y Orden.py
 
 
-# CLASE 82 SOBRECARGA DE OPERADORES EN PYTHON
+# CLASE 83 SOBRECARGA DE OPERADORES EN PYTHON
 # Se encuentra en el archivo de sobrecargar_operadores.py
 
 
-# CLASE 83 SOBRECARGA DE OPERADORES EN PYTHON - PARTE 2
+# CLASE 84 SOBRECARGA DE OPERADORES EN PYTHON - PARTE 2
 # Se encuentra en el archivo de sobrecargar_operadores.py y Persona.py
 
 
-# CLASE 84 POLIMOFRISMO EN PYTHON - PARTE 1
+# CLASE 85 POLIMOFRISMO EN PYTHON - PARTE 1
 # Se encuentra en el archivo Gerente.py y Empleado.py
 
 
-# CLASE 85 POLIMOFRISMO EN PYTHON - PARTE 2
+# CLASE 86 POLIMOFRISMO EN PYTHON - PARTE 2
 # Se encuentra en el archivo Gerente.py, Empleado.py y test_polimorfismo
 
 
-# CLASE 86 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
+# CLASE 87 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
 # Se encuentra en el archivo Gerente.py, Empleado.py y test_polimorfismo
 # from TareaMundoPc.DispositivoEntrada import Persona
 
@@ -880,13 +880,21 @@
 # Se encuentra mi solucion en la caprta TareaMundoPc y la solucion de Ubaldo en el paquete mundo_pcUbaldo
 
 
-# CLASE 87 MANEJO DE ERRORES O EXCEPCIONES EN PYTHON
+# CLASE 88 MANEJO DE ERRORES O EXCEPCIONES EN PYTHON
 # Se encuentra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
 
 
-# CLASE 88 PROCESAMIENTO DE EXCEPCIONES EN PYTHON
+# CLASE 89 PROCESAMIENTO DE EXCEPCIONES EN PYTHON
 # Se encutnra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
 
 
-# CLASE 89 PROCESAR CLASES DE EXCEPCION MAS ESPECIFICAS
+# CLASE 90 PROCESAR CLASES DE EXCEPCION MAS ESPECIFICAS
+# Se encutnra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
+
+
+# CLASE 91 MAS DE PROCESAMIENTO DE EXCEPCIONES
+# Se encutnra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
+
+
+# CLASE 92 BLOQUE ELSE Y FINALLY AL MANEJAR EXCEPCIONES
 # Se encutnra en el paquete ManejoExceptionesPython (manejo_excepciones.py)

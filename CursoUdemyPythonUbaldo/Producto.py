@@ -40,8 +40,7 @@
 #     producto2 = Producto('Pantalon', 150.00)
 #     print(producto2)
 
-# CLASE 81 CREACION CLASE Orden
-# CLASE 80 CREACION CLASE ORDEN
+# CLASE 81 CREACION CLASE ORDEN
 # class Producto:
 #     contador_productos = 0
 #     def __init__(self, nombre, precio):

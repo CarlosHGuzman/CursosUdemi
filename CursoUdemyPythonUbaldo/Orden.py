@@ -1,4 +1,4 @@
-# CLASE 80 CREACION CLASE ORDEN
+# CLASE 81 CREACION CLASE ORDEN
 # from Producto import Producto as P
 #
 #
@@ -54,7 +54,7 @@
 #     print(orden2)
 
 
-# CLASE 81 PRUEBA DE LAS CLASES ORDENES Y PRODUCTOS
+# CLASE 82 PRUEBA DE LAS CLASES ORDENES Y PRODUCTOS
 # from Producto import Producto as P
 #
 #

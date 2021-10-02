@@ -1,4 +1,4 @@
-# CLASE 84 POLIMOFRISMO EN PYTHON - PARTE 1
+# CLASE 85 POLIMOFRISMO EN PYTHON - PARTE 1
 # from Empleado import Empleado
 #
 #
@@ -18,7 +18,7 @@
 #         return f'Gerente[Dapartamento: {self.departamento},[ {super.__str__(self)}]]'
 
 
-# CLASE 85 POLIMOFRISMO EN PYTHON - PARTE 2
+# CLASE 86 POLIMOFRISMO EN PYTHON - PARTE 2
 # from Empleado import Empleado
 #
 #
@@ -42,7 +42,7 @@
 #     #     return self.__str__()
 
 
-# CLASE 86 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
+# CLASE 87 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
 from Empleado import Empleado
 
 
