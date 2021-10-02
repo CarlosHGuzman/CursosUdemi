@@ -878,3 +878,15 @@
 
 # TAREA LABORATORIO MUNDO PC
 # Se encuentra mi solucion en la caprta TareaMundoPc y la solucion de Ubaldo en el paquete mundo_pcUbaldo
+
+
+# CLASE 87 MANEJO DE ERRORES O EXCEPCIONES EN PYTHON
+# Se encuentra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
+
+
+# CLASE 88 PROCESAMIENTO DE EXCEPCIONES EN PYTHON
+# Se encutnra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
+
+
+# CLASE 89 PROCESAR CLASES DE EXCEPCION MAS ESPECIFICAS
+# Se encutnra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
