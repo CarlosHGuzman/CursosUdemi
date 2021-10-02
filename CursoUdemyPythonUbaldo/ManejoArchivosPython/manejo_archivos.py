@@ -28,7 +28,8 @@
 #     archivo.close()
 #     print('Se ha cerrado el archivo')
 #     #archivo.write('nueva info') # Despues de que cerremos el archivo no se puede utilizar
-#
+
+
 # CLASE 95 LECTURA DE ARCHIVOS EN PYTHON
 try:
     # El metodo open idncia que podemos abrir un archivo ya existente

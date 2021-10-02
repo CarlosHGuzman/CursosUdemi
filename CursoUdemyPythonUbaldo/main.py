@@ -913,4 +913,8 @@
 
 
 # CLASE 95 LECTURA DE ARCHIVOS EN PYTHON
-# Se encuentra en el paquete ManejoArchivosPython (manejo_archivos.py)
+# Se encuentra en el paquete ManejoArchivosPython (leer_archivo.py)
+
+
+# CLASE 96 MAS FORMAS DE TRABAJAR CON ARCHIVOS EN PYTHON
+# Se encuentra en el paquete ManejoArchivosPython (leer_archivo.py)
