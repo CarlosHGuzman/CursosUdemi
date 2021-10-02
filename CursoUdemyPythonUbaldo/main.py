@@ -874,3 +874,7 @@
 # CLASE 86 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
 # Se encuentra en el archivo Gerente.py, Empleado.py y test_polimorfismo
 # from TareaMundoPc.DispositivoEntrada import Persona
+
+
+# TAREA LABORATORIO MUNDO PC
+# Se encuentra mi solucion en la caprta TareaMundoPc y la solucion de Ubaldo en el paquete mundo_pcUbaldo
