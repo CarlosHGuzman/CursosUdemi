@@ -889,12 +889,28 @@
 
 
 # CLASE 90 PROCESAR CLASES DE EXCEPCION MAS ESPECIFICAS
-# Se encutnra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
+# Se encuentra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
 
 
 # CLASE 91 MAS DE PROCESAMIENTO DE EXCEPCIONES
-# Se encutnra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
+# Se encuentra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
 
 
 # CLASE 92 BLOQUE ELSE Y FINALLY AL MANEJAR EXCEPCIONES
-# Se encutnra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
+# Se encuentra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
+
+
+# CLASE 92 CREACION DE CLAESE DE EXCEPCION PERSONALIZADAS
+# Se encuentra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
+
+
+# CLASE 93 MANEJO DE ARCHIVOS EN PYTHON
+# Se encuentra en el paquete ManejoArchivosPython (manejo_archivos.py)
+
+
+# CLASE 94 ESPECIFICAR EL JUEGO DE CARACTERES DE UN ARCHIVO DE TEXTO
+# Se encuentra en el paquete ManejoArchivosPython (manejo_archivos.py)
+
+
+# CLASE 95 LECTURA DE ARCHIVOS EN PYTHON
+# Se encuentra en el paquete ManejoArchivosPython (manejo_archivos.py)

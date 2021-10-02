@@ -68,10 +68,37 @@
 
 
 # CLASE 92 BLOQUE ELSE Y FINALLY AL MANEJAR EXCEPCIONES
+# resultado = None
+# try:
+#     a = int(input('Primer numero: '))
+#     b = int(input('Segundo numero: '))
+#     resultado = a / b
+# except ZeroDivisionError as zde:
+#     print(f'Ocurrio un error: {zde}, {type(zde)}')
+# except TypeError as e:
+#     print(f"Ocurrio un error: {e}, {type(e)}")
+# except ValueError as e:
+#     print(type(e), f"Error {e}")
+# except Exception as e:
+#     print(f'Ocurrio un error: {e}, {type(e)}')
+# else: # El bloque else solo ejecutara en caso de que no se arroje un excepcion
+#     print('No se arrojo ninguna excepción')
+# finally: # Se ejecutara cuando o no se arroje una excepcion
+#     print("Ejecución del bloque finally")
+#
+# print(f'Resultado: {resultado}')
+# print('Continuamos')
+
+# CLASE 92 CREACION DE CLAESE DE EXCEPCION PERSONALIZADAS
+from ManejoExceptionesPython.NumerosIdenticosException import NumerosIdenticosException
+
 resultado = None
 try:
     a = int(input('Primer numero: '))
     b = int(input('Segundo numero: '))
+    if a == b:
+        # raise nos permite arrojar o lanzar una excepcion
+        raise NumerosIdenticosException('números identicos') # Este codigo lo ejecutara el except Exception
     resultado = a / b
 except ZeroDivisionError as zde:
     print(f'Ocurrio un error: {zde}, {type(zde)}')
@@ -81,6 +108,10 @@ except ValueError as e:
     print(type(e), f"Error {e}")
 except Exception as e:
     print(f'Ocurrio un error: {e}, {type(e)}')
+else: # El bloque else solo ejecutara en caso de que no se arroje un excepcion
+    print('No se arrojo ninguna excepción')
+finally: # Se ejecutara cuando o no se arroje una excepcion
+    print("Ejecución del bloque finally")
 
 print(f'Resultado: {resultado}')
 print('Continuamos')

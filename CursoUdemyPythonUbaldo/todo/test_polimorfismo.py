@@ -16,8 +16,8 @@
 
 
 # CLASE 87 METODO ISINSTANCE Y POLIMORFISMO EN PYTHON AND METODO DEBUG
-from Empleado import Empleado
-from Gerente import Gerente
+from todo.Empleado import Empleado
+from todo.Gerente import Gerente
 
 def imprimir_detalles(objeto):
     # print(objeto)
