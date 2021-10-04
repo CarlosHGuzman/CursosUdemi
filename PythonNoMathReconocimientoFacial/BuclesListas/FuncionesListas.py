@@ -1,0 +1,27 @@
+array = ['futbol', 'Pc', 18.6, 18, [6, 7, 10.4], True, False]
+print(len(array))
+array.append(66)
+array.append(True)
+print(array)
+array.insert(1, 88)
+print(array)
+array.extend([200, 30, 15])
+print(array)
+array2 = [200, 250, 'hola']
+array3 = array + array2
+print(array3)
+print('Pc' in array)
+print('hola' in array)
+print(array.index("Pc"))
+# print(array.index('hola'))
+print(array.count('Pc'))
+print(array.count('hola'))
+array.remove('Pc')
+print(array)
+array.reverse()
+print(array)
+numeros = [1, 2, 8, -12, 6]
+numeros.sort()
+print(numeros)
+numeros.sort(reverse = True)
+print(numeros)

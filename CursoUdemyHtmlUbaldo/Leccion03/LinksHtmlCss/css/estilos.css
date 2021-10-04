@@ -1,0 +1,29 @@
+h1{
+    color: #014f86;
+}
+a{
+    margin: 40px 10px;
+    padding: auto 10px;
+    border: #f0f3bd;
+}
+a:link{
+    color: #468faf; 
+    text-decoration: none;
+}
+a:visited{
+    color: #89c2d9;
+    text-decoration: none;
+}
+a:hover{
+    color: #ccc5b9;
+    text-decoration: underline;
+}
+a:active{
+    color: #403d39;
+    text-decoration: underline;
+}
+p{
+    margin: 40px 10px;
+    padding: auto 10px;
+    border: #f0f3bd;
+}
