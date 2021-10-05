@@ -918,3 +918,22 @@
 
 # CLASE 96 MAS FORMAS DE TRABAJAR CON ARCHIVOS EN PYTHON
 # Se encuentra en el paquete ManejoArchivosPython (leer_archivo.py)
+
+
+# CLASE 97 USO DE WITH, ARCHIVOS Y CONTEXT MANAGER CON PYTHON
+# Se encuentra en el paquete ManejoArchivosPython (Archivos_con_with.py)
+
+# CLASE 98 USO DE WITH Y CONTEXT MANAGER CON PYTHON
+# Se encuentra en el paquete ManejoArchivosPython (Archivos_con_with.py)
+
+# SECCION 22 PROYECTO FINAL -CATALOGO DE PELÍCULAS
+# Se encuentra en el paquete de catalogoPeliculas
+
+
+# CLASE 99 INSTALCION DEL MODULO DE POSTGRESQL EN PYTHON
+# pip comando que nos permite actualizar instalar o eliminar paquetes en este caso vamos a instalar(pip install psycopg2)
+# Que es la libreria que vamos a utilizar para conectar a python con postgreSQL
+
+
+# CLASE 100 (FELICITACIONES) CONEXION DE P YTHON A POSTGRESQL
+# Se encuentra en el paquete UsoPostgresSQL
