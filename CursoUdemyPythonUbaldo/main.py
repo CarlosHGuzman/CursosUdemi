@@ -367,7 +367,7 @@
 # # acceder a los elementos de manera inversa
 # print(nombres[-1])
 # print(nombres[-2])
-# #Imprimir un rago
+# #Imprimir un rango
 # print(nombres[0:2]) # sin incluir el índice 2
 # #Ir del inicio de la lista al índice (sin incluirlo)
 # print(nombres[:3])
@@ -900,7 +900,7 @@
 # Se encuentra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
 
 
-# CLASE 92 CREACION DE CLAESE DE EXCEPCION PERSONALIZADAS
+# CLASE 92 CREACION DE CLASE DE EXCEPCION PERSONALIZADAS
 # Se encuentra en el paquete ManejoExceptionesPython (manejo_excepciones.py)
 
 
@@ -921,21 +921,21 @@
 
 
 # CLASE 97 USO DE WITH, ARCHIVOS Y CONTEXT MANAGER CON PYTHON
-# Se encuentra en el paquete ManejoArchivosPython (Archivos_con_with.py)
+# Se encuentra en el paquete UsoWithArchivosResourceManager (Archivos_con_with.py)
 
 # CLASE 98 USO DE WITH Y CONTEXT MANAGER CON PYTHON
-# Se encuentra en el paquete ManejoArchivosPython (Archivos_con_with.py)
+# Se encuentra en el paquete UsoWithArchivosResourceManager (Archivos_con_with.py)
 
 # SECCION 22 PROYECTO FINAL -CATALOGO DE PELÍCULAS
 # Se encuentra en el paquete de catalogoPeliculas
 
 
-# CLASE 99 INSTALCION DEL MODULO DE POSTGRESQL EN PYTHON
+# CLASE 99 INSTALACION DEL MODULO DE POSTGRESQL EN PYTHON
 # pip comando que nos permite actualizar instalar o eliminar paquetes en este caso vamos a instalar(pip install psycopg2)
 # Que es la libreria que vamos a utilizar para conectar a python con postgreSQL
 
 
-# CLASE 100 (FELICITACIONES) CONEXION DE P YTHON A POSTGRESQL
+# CLASE 100 (FELICITACIONES) CONEXION DE PYTHON A POSTGRESQL
 # Se encuentra en el paquete UsoPostgresSQL
 
 

@@ -45,7 +45,7 @@
 # print(aritmetica1.division())
 
 
-#TAREA LABORATORIO RECTANGULO
+# TAREA LABORATORIO RECTANGULO
 # class Rectangulo:
 #     def __init__(self, altura, base):
 #         self.base = base
@@ -83,7 +83,7 @@
 # print(f'Area rectangulo: {rectangulo2.calcular_area()}')
 
 
-#TAREA LABORATORIO CUBO
+# TAREA LABORATORIO CUBO
 # class Cubo:
 #     def __init__(self, ancho, profundidad, altura):
 #         self.ancho = ancho
@@ -101,7 +101,7 @@
 # print(f'El volumen del cubo es: {cubo1.calcular_volumen():.2f}')
 
 
-#SOLUCION TAREA Ubaldo
+# SOLUCION TAREA Ubaldo
 # class Cubo:
 #     def __init__(self, ancho, alto, profundo):
 #         self.ancho = ancho

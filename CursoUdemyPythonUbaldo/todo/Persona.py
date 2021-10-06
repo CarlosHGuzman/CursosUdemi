@@ -347,7 +347,7 @@
 # persona1.mostrar_detalles()
 
 
-# CLASE 64 DESTRUCTOR DE OBJETOS EN PYTHON
+# CLASE 63  DESTRUCTOR DE OBJETOS EN PYTHON y 64
 # class Persona:
 #     def __init__(self, nombre, apellido, edad):
 #         # Cuando se coloca _ significa que el atributo esta encapsulado
