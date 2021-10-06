@@ -937,3 +937,7 @@
 
 # CLASE 100 (FELICITACIONES) CONEXION DE P YTHON A POSTGRESQL
 # Se encuentra en el paquete UsoPostgresSQL
+
+
+# CLASE 101 USO DE WITH Y PSYCOPG
+# Se encuentra en el paquete UsoPostgresSQL
