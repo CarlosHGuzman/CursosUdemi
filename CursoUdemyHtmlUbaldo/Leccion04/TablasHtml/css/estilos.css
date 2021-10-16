@@ -1,0 +1,18 @@
+table{
+    width: 70%;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse; /*Esto es para que se colapsen los bordes,
+    es decir, para cada elemento tendra un recuadro y este estilo lo eliminara*/
+    padding: 5px;
+    /*border-spacing: 5px; /*Esto lo que hace es dar un espacio entre el borde la tabla 
+    y los elementos que contiene cuando no se aplica border-collapse*/
+}
+/*
+td{
+    text-align: center;
+}
+th{
+    text-align: left;
+}*/

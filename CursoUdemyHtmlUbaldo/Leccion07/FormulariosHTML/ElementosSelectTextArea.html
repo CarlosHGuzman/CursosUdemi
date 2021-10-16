@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0"/>
+        <title>Formularios en HTML</title>
+    </head>
+    <body>
+        <h1>Formularios en HTML</h1>
+        <!--Va a indicar que vamos a relizar un formulario
+        con el atributo de "novalidate" <form novalidate> va a indicar que el formulario 
+        por decirlo de una manera no es obligatorio, aunque dentro de este
+        hallamos indicado que debamos de llenar un campo.
+        Por defectos la etiqueta de <form> tiene un <form method = "GET"> lo que hace que la información 
+        que se quiera enviar hará parte de la URL
+        , sin embargo tenemos el metodo = "POST" hará que la información que vamos a enviar 
+        sea parte del mensaje HTTP que se esta enviando hacia el servidor-->
+        <form method = "POST">
+            <!--La etiqueta <fieldset> es para indica que va estar encerrado dentro de un marco como 
+                si fuera la etiqueta <iframe>-->
+            <fieldset>
+                <!--La etiqueta <legend> es para indicar que el texto siguiente va ser el titulo del
+                    formulario-->
+                <legend>Datos Persona: </legend>
+                
+                <!--Capturar el nombre del usuario, elementos de tipo input
+                vamos a indicar la etiqueta <input type = "tipo" id = "nombre">
+                el atributo de "for = "id" lo que va hacer es redireccionar hacia la caja
+                para rellenar
+                Con el atributo de value podemos darle un valor por defecto a la etiqueta de value
+                El atributo de "placeholder = "mostrar valor a reemplazar""
+                lo que hara es mostrar un texto por defecto pero este no se un valor 
+                por lo cual no se enviara, es decir, un texto de guia que sera reemplazado cuando 
+                se le de un valor.
+                El atributo de required = "true" lo que va a indicar es que el valor debe ser ingresado 
+                obligatoriamente para seguir.
+                -->
+                <label for = "Nombre">Nombre: </label><br/>
+                <input type = "text" id = "Nombre" name = "Nombre" 
+                placeholder = "Escribe tu nombre" required = "true"/><br/>
+                
+                <label for = "Apellido">Apellido:</label><br/>
+                <input  type = "text" id = "Apellido" name =  "Apellido"
+                placeholder = "Escribe tu apellido" required = "true"/><br/>
+
+            <label for = "Email">Email:</label><br/>
+            <input type = "email" id = "Email" name = "Email"/
+            placeholder = "correo@gmail.com"><br/>
+
+            <!--<input type = "number or email"> estos valores los tiene 
+                por defecto
+                En el caso de que queramos para el caso del tipo number, recibir valores decimales
+                Debemos de colocar el atritubo de <input type = "number" step = "any"-->
+            <label for = "Edad">Edad:</label><br>
+            <input type = "number" id = "Edad" name = "Edad" step = "any"/>
+                
+            <br/>
+            <label">Genero</label><br/>
+            <input type = "radio" id = "Femenino" name = "genero" value ="Femenino"/>
+            <label for = "Femenino">Femenino</label><br/>
+                <input type = "radio" id = "Masculino" name = "genero" value = "Masculino"/>
+                <label>Masculino</label><br/>
+
+                <label>Género Música Favorita</label><br/>
+                <input type = "checkbox" id = "clasica" name = "musica"/>
+                <label for = "clasica">Clásica</label>
+                
+                <br/>
+                <input type = "checkbox" id = "jazz" name = "musica"/>
+                <label for = "jazz">Jazz</label><br/>
+
+                <label = for = "autos">Marca Auto Favorita:</label>
+                <!--La etiqueta <select> va a indicar que vamos a cargar varios valores en una lista
+                    La etiqueta de <option> dentro del select va hacer el elemento que vamos  a enviar
+                        cabe destacar qeu lo que se va enviar es el valor del atributo "value"
+                        esta tambien puede tener atributos como los de selected = "true" que van a indicar que va hacer la opcion 
+                        que se va a mostrar por defecto y a demas de enviar
+                    El atributo de "multiple = "true"-->
+                <select id="autos" name="autos" multiple>
+                    <option value = "volvo">Volvo</option>
+                    <option value = "bmw">BMW</option>
+                    <option value = "audi" selected = "true">Audi</option><br/>
+                </select><br/>
+
+
+                <label for = "comentario">Comentario</label>
+                <textarea id = "comentario" name = "comentario" rows = "2" cols = "30">
+                    Este es mi comentario
+                </textarea>
+            
+            
+                <!--Crear un boton para enviar <input type = "submit" value = "nombre del texto del boton">-->
+                <input type = "submit" value = "Enviar"/><br/>
+                
+                <!--El atributo de la etiqueta <input formnovalidate = "formonovalidate">
+                , esto permitira que se envie los valores haci el servidor sin que estos sean validados-->
+                <input type = "submit" formnovalidate = "formnovalidate"
+                value = "Enviar sin validar"/>
+                </fieldset>
+            </form>
+    </body>
+</html>

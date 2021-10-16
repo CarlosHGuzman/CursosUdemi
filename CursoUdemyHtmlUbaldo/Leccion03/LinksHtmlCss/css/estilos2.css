@@ -1,0 +1,14 @@
+h1{
+    color: #E00611;
+}
+a:link, a:visited{
+    background-color: #32C07B;
+    color:white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /*Para que no se encimen los elementos */
+}
+a:hover, a:active{
+    background-color: #2CC2D4;
+}

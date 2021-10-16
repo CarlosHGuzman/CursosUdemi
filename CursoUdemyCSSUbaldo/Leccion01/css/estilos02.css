@@ -1,0 +1,4 @@
+h1{
+    color: aqua !important;/*important indica que es importante y va tener prioridad
+    sobre otros estilos*/
+}

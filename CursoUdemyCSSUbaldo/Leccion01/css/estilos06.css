@@ -1,0 +1,5 @@
+/*Esto se le conoce como agrupacion de selectores y se separan por ,*/
+h1, h2, p{
+    color: crimson;
+    text-align: center;
+}

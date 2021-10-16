@@ -53,3 +53,12 @@ except Exception as e:
     print(f'Ocurrio un error: {e}')
 finally:
     conexion.close()  # Esto es para cerrar la conexion
+
+
+conexion = psycopg2(
+    user='postgres',
+    password='admins',
+    host='127.0.0.1',
+    port='5432',
+    database='test_db'
+)

@@ -1,0 +1,4 @@
+/*Esta clase solo se aplicará si la invocamos en elementos de tipo parrafor <p>*/
+p.centrar{
+    text-align: center;
+}

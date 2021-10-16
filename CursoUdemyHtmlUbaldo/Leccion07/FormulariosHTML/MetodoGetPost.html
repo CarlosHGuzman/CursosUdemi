@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <meta charset = "UTF-8"/>
+        <meta http-equiv = "X-UA-Compatible" content = "IE=edge"/>
+        <meta name = "viewport" content = "width=device-width, initial-scale = 1.0"/>
+        <title>Formularios en HTML</title>
+    </head>
+    <body>
+        <h1>Formularios en HTML</h1>
+        <!--Va a indicar que vamos a relizar un formulario
+        con el atributo de "novalidate" <form novalidate> va a indicar que el formulario 
+        por decirlo de una manera no es obligatorio, aunque dentro de este
+        hallamos indicado que debamos de llenar un campo.
+        Por defectos la etiqueta de <form> tiene un <form method = "GET"> lo que hace que la información 
+        que se quiera enviar hará parte de la URL
+        , sin embargo tenemos el metodo = "POST" hará que la información que vamos a enviar 
+        sea parte del mensaje HTTP que se esta enviando hacia el servidor-->
+        <form method = "POST">
+            <!--Capturar el nombre del usuario, elementos de tipo input
+            vamos a indicar la etiqueta <input type = "tipo" id = "nombre">
+            el atributo de "for = "id" lo que va hacer es redireccionar hacia la caja
+            para rellenar
+            Con el atributo de value podemos darle un valor por defecto a la etiqueta de value
+            El atributo de "placeholder = "mostrar valor a reemplazar""
+            lo que hara es mostrar un texto por defecto pero este no se un valor 
+            por lo cual no se enviara, es decir, un texto de guia que sera reemplazado cuando 
+            se le de un valor.
+            El atributo de required = "true" lo que va a indicar es que el valor debe ser ingresado 
+            obligatoriamente para seguir.
+            -->
+            <label for = "Nombre">Nombre: </label><br/>
+            <input type = "text" id = "Nombre" name = "Nombre" 
+            placeholder = "Escribe tu nombre" required = "true"/><br/>
+            
+            <label for = "Apellido">Apellido:</label><br/>
+            <input  type = "text" id = "Apellido" name =  "Apellido"
+            placeholder = "Escribe tu apellido" required = "true"/><br/>
+
+            <label for = "passowrd">Password:</label> <br/>
+            <input type = "password" id = "password" name = "passworrd"
+                required = "true"/>
+            
+            <!--Crear un boton para enviar <input type = "submit" value = "nombre del texto del boton">-->
+            <input type = "submit" value = "Enviar"/><br/>
+            
+            <!--El atributo de la etiqueta <input formnovalidate = "formonovalidate">
+            , esto permitira que se envie los valores haci el servidor sin que estos sean validados-->
+            <input type = "submit" formnovalidate = "formnovalidate"
+            value = "Enviar sin validar"/>
+            </form>
+    </body>
+</html>

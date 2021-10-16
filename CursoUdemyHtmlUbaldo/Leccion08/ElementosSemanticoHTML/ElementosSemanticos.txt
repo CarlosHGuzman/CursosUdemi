@@ -1,0 +1,20 @@
+Esta se puede utilizr para indicar una seccion o region
+<section> 
+
+Esta etiqueta va a indicar que este elemento va a ser independiente
+<article>
+
+Esta etiqueta se utiliza para agregar elementos en la parte leteral
+<aside>
+
+Esta etiqueta se utiliza para indicar que es un cabecero.
+<header>
+
+Esta etiqueta se utiliza para indicar un pie de pagina.
+<footer>
+
+Esta etiqueta va a indicar que vamos a agrupar los titulos
+<hgroup>
+
+Esta etiqueta va a indicar una barra de navegación
+<nav>

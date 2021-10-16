@@ -1,0 +1,30 @@
+table{
+    width: 70%;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse; /*Esto es para que se colapsen los bordes,
+    es decir, para cada elemento tendra un recuadro y este estilo lo eliminara*/
+    padding: 5px;
+    /*border-spacing: 5px; /*Esto lo que hace es dar un espacio entre el borde la tabla 
+    y los elementos que contiene cuando no se aplica border-collapse*/
+}
+caption{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Courier, monospace;
+    font-size: 45px;
+    line-height: 70px; /*Para dar un espacio arriba y abajo del titulo*/
+}
+th{
+    color: #f1faee;
+    background-color: #1d3557;
+}
+/*nth-chind es para seleccionar los renglones
+y even es para los renglones pares 
+y odd para los impares*/
+tr:nth-child(even){
+    background-color:rgb(215, 248, 237);
+}
+tr:nth-child(odd){
+    background-color: rgb(243, 196, 196);
+}

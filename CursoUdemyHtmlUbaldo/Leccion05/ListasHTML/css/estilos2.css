@@ -1,0 +1,19 @@
+ol{
+    list-style: none;
+    counter-reset: contador; /*Reiniciara el contador a 0 cada nueva
+    lista*/
+
+}
+ol li{
+    counter-increment: contador;/*Para incrementar el valor del 
+    contador*/
+}
+/*Con :: vamos a indicar un selector en este caso el defore(antes)*/
+ol li::before{
+    content: 'Curso ' counter(contador) ') ';
+    /*counter es un contador*/
+    color: orange;
+}
+ol li::after{
+    content: '.'
+}

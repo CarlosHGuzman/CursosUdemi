@@ -13,7 +13,7 @@ p{
     margin-bottom: 20px; 
     margin-left: 10px;*/
     /*background-color: crimson;*/
-    /* top rigth abajo izquierda*/
+    /* top derecha(right) abajo(bottom) izquierda(left)*/
     /* Si son iguales los tamaños de izquierda y derecha se dejar solo uno lo mismo para arriba y abajo*/
     /* margin: 40px 10px 20px 10px; */
     margin: auto 50px; /*Esto hace que se centre en left right*/

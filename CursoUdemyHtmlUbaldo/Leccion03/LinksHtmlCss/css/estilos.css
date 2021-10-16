@@ -6,19 +6,19 @@ a{
     padding: auto 10px;
     border: #f0f3bd;
 }
-a:link{
+a:link{ /*Como se mostrara el link normalmente*/
     color: #468faf; 
-    text-decoration: none;
+    text-decoration: none; /*Si queremos decorar el link con un subrayado o algo por el style>
 }
-a:visited{
+a:visited{ /*Cuando ya hemos visitado el link*/
     color: #89c2d9;
     text-decoration: none;
 }
-a:hover{
+a:hover{ /* Cuando estemos ubicados encima del link*/
     color: #ccc5b9;
     text-decoration: underline;
 }
-a:active{
+a:active{ /*Cuando estemos presionando el link*/
     color: #403d39;
     text-decoration: underline;
 }
