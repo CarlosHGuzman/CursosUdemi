@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    translate: yes;
+}
+h1{
+    text-align: center;
+    color: #e83946;
+}
+.caja1{
+    border: 1px solid #457d9d;
+    border-style: dotted;
+    padding: 10px 5px 10px 3px;  /*superior derecha-izquierda inferior*/
+    margin: 30px;/*auto va a indicar que se va a tomar el mismo margen de ambos lado*/
+    background-color:#f1faee;
+    max-width: 300px; /*Esto indica que nuestro elemento va a tener este maximo y se ajustara  a 
+    la pantalla del usuario si es necesario*/
+    box-sizing: border-box;/*Esto hara que la suma de los elementos no se pase del ancho indicado*/
+}
+/*Cuando hacemos referencia a margin collapse nos referimos que en la parte superior y inferior va a tomar 
+el margen del elemento con mayor margen*/
+.caja2{
+    border: 1px solid #457d9d;
+    border-style: dotted;
+    padding: 10px 5px 10px 3px;  /*superior derecha-izquierda inferior*/
+    margin: 20px;/*auto va a indicar que se va a tomar el mismo margen de ambos lado*/
+    background-color:#f1faee;
+    max-width: 300px; /*Esto indica que nuestro elemento va a tener este maximo y se ajustara  a 
+    la pantalla del usuario si es necesario*/
+    box-sizing: border-box;/*Esto hara que la suma de los elementos no se pase del ancho indicado*/
+}

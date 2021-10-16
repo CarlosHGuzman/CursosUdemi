@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: #e83946;
+}
+div{
+    border: 15px solid #457d9d;
+    border-style: dotted;
+    padding: 10px 5px 10px;  /*superior derecha-izquierda inferior*/
+    margin: 20px;
+    background-color:#f1faee;
+    width: 300px; /*Se debe tener en cuenta las medidas del padding margin border*/
+    outline: 10px solid #a8dadc; /*Este elemento esta entre el borde y el margen 
+    asi que se debe de tener cuidado de que no se pase de este el limite de estos puesto 
+    que podra sobreafectar a los demas elementos html*/
+    outline-offset: 10px;/*Es la separacion entre outline del border no se aplica el valor para cada lado*/
+}
+*{
+    translate: yes;
+}

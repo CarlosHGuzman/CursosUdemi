@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    translate: yes;
+}
+h1{
+    text-align: center;
+    color: #e83946;
+}
+div{
+    border: 15px solid #457d9d;
+    border-style: dotted;
+    padding: 10px 5px 10px;  /*superior derecha-izquierda inferior*/
+    margin: 20px;
+    background-color:#f1faee;
+    width: 300px; /*Se debe tener en cuenta las medidas del padding margin border*/
+    box-sizing: border-box;/*Esto hara que la suma de los elementos no se pase del ancho indicado*/
+}

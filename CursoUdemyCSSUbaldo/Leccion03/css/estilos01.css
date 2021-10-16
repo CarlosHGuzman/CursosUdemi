@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+    color: #e83946;
+}
+div{
+    padding: 10px;
+    border: 15px solid #457d9d;
+    border-style: dashed;
+    margin: 20px;
+    padding: 10px;
+}
