@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+}
+.punteado{
+    border-style: dotted; /*dotted = punteado*/
+}
+.discontinuo{
+    border-style: dashed; /*dashed = linea discontinua*/
+}
+.solido{
+    border: 10px solid red;
+}
+.doble{
+    border: 5px double; /*double = doble linea*/
+}
+.surco{
+    border: 10px groove; /*Se divide en colores*/
+}
+.cresta{
+    border: 10px ridge; /*al reves del surco*/
+}
+.recuadro{
+    border: 10px inset; /*inset cuadro con un color arriba gris oscuro y abajo claro*/
+}
+.outset{
+    border: 10px outset;/*al reves de inset*/
+}
+.sin_borde{
+    border: none;
+}
+.oculto{
+    border: hidden;
+}
+.mixto{ /*superior derecho inferior izquierdo*/
+    border-style: dotted solid dashed double;
+}
