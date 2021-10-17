@@ -1,0 +1,15 @@
+body{
+    background-color: dodgerblue;
+    color: cornsilk;
+    background-image: url("/Leccion05/img/fondo.png");
+    background-repeat: no-repeat;/*Propiedad para que se repita o no y como la imagen*/
+    background-position:  right top;/*Para posicionar nuestra imagen*/ 
+    background-attachment: scroll; /*Esto es por si queremos que se mueva nuestro fondo con el contenido scroll = si*/
+    /*background: dodgerblue cornsilk url("/Leccion05/img/fondo.png") no-repeat right top;
+    background: colorFondo colorLetra imagenFondo repeat position*/
+    background-size: 100%;
+}
+h1{
+    text-align: center;
+    background-color: dodgerblue;
+}

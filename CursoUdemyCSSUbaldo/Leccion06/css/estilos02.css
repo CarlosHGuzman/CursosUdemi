@@ -1,0 +1,23 @@
+h1{
+    color: #ef476f;
+    background-color: beige;
+    text-align: center;
+    text-transform: uppercase; /*Convertir el texto a*/
+    text-shadow:2px 2px 2px #ced4da;/*EjeX Eje Y difuminado color*/
+    letter-spacing: 3px; /*Separar los caracteres individuales*/
+    word-spacing: 10px; /*Separar las palabras*/
+    text-decoration: overline;
+}
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color: white;
+}
+.texto{
+    text-align: justify;
+    direction: ltr; /*Esto es para que el texto se muestre de un lado a otro*/
+    text-decoration: overline; /*Esto es para decorar nuestro texto*/
+}
