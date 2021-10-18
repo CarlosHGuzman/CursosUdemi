@@ -1,0 +1,4 @@
+Basicamente es para ver en como queremos ir mostrando los elementos 
+que vamos a ir sobreponiendo uno sobre todo que van desde el -1 hasta 2
+es decir los negativos son los ultimos a mostrar y los positivos los 
+primeros a mostrar

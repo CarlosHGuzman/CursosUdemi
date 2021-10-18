@@ -1,0 +1,62 @@
+/*https://fonts.google.com/ cabe destacar que si utilizamos estas fuentes puede 
+que nuestra pagina se realentize*/
+@import url('https://fonts.googleapis.com/css?family=Sofia|Roboto&effect=shadow-multiple&display=swap');
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: 'Sofia', cursive;
+}
+.caja{
+    width :40%;
+    height: 80px;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    float: left;
+}
+.caja.serif{
+    background-color: #5a189a;
+}
+.fuente_robot{
+    font-family: 'Roboto', sans-serif;
+    font-style:normal;
+    font-weight: normal;/*Ancho de la letra*/
+    font-variant:small-caps; /*small-caps Todas las letras en mayusculas pero la primera letra de cada palabra es mas grande*/
+    font-size: 16px;
+}
+.fuente_georgia{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: normal;
+    font-size: 1.25em; /* 16px/16 = 1 em*/
+}
+.caja.sans-serif{
+    background-color: #00b4d8;
+    font-style: oblique;
+}
+.fuente_arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.15vmax; /*view width (viewport) esto hace responsiva nuestro tipo de fuente*/
+}
+.fuente_verdana{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+}
+.caja.monospace{
+    background-color: #f15bb5;
+}
+.fuente_courier{
+    font-family:'Courier New', Courier, monospace;
+}
+.caja.cursive{
+    background-color: #ff8500;
+}
+.fuente_lucida{
+    font-family: 'Lucida Handwritin', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+}

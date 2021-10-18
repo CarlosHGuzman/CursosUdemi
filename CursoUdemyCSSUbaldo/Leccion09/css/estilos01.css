@@ -1,0 +1,12 @@
+h1, div, p, span{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px;
+    display: block;
+    /*display: inline;/*Esto va a indicar que va estar en linea con los otros*/
+}
+span{
+    border: 1px solid blue;
+    display:inline;
+}

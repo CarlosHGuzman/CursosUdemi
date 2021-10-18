@@ -1,0 +1,15 @@
+
+/*Esto es de botstrap que vamos a utilizar para usar iconos*/
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+.icono_azul{
+    font-size: 2.5em; color: cornflowerblue;
+    vertical-align: bottom;  
+}

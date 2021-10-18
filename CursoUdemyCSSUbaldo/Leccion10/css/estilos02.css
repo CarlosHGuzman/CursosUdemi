@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    position:static;
+    max-width: 40%; /*Como maximo estos pixeles pero si es menos se ajusta, se puede 
+    simular tambien con %*/
+    border: 3px solid firebrick; 
+    margin: auto;/*auto = misma cantidad de espacio en right y left*/
+}
+
+/*
+        TIPOS DE POSICIONAMIENTO
+
+    -static         valor por defecto, esto hace que los elementos de tipo top lef no tengan imporntancia
+    -relative
+    -fixed
+    -absolute
+    -sticky
+*/

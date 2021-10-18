@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div{
+    max-width: 40%; /*Como maximo estos pixeles pero si es menos se ajusta, se puede 
+    simular tambien con %*/
+    border: 3px solid firebrick; 
+    margin: auto;/*auto = misma cantidad de espacio en right y left*/
+}
