@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+    color: crimson;
+}
+div.estatico{
+    position: static;
+    padding: 15px;
+    border: 3px solid greenyellow;
+    background-color: whitesmoke;
+}
+div.relativo{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 15px;
+    border: 3px solid blueviolet;
+    background-color: whitesmoke;
+    z-index: -1 ;
+}
+div.absoluta{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border: 3px solid cornflowerblue;
+    background-color: whitesmoke;
+    z-index: inherit;
+}
+
+/*
+        TIPOS DE POSICIONAMIENTO
+
+    -static         Valor por defecto, esto hace que los elementos de tipo top lef no tengan imporntancia.
+    -relative       Se va a mover entorno a su posicion natural de forma relativa, afecta valores como top, right, left, bottom
+                    y quedara su espacio natural si este lo movemos.
+    -fixed          Este elemento se mantendra en la posicion que le indiquemos durante toda la pagina, es decir, su posicion natura no se 
+                    respeta y ademas los otros elementos podran estar debajo de este.
+    -absolute       Se va posicionar de acuerdo al padre es decir al div o la pagina donde este, no puede ser de tipo estatico.
+    -sticky         Se debe utilizar una de las propiedades top right bottom left, se va a reservar su posicion natural y cuando nosotros nos movamos 
+                    con el scroll esta se va a quedar en la partida de arriba arrastrandose con el resto de la pagina.
+    - z-index       Este va a indicar que elemento tendra prioridad sobre cual elemento negativos ultimos positivos primeros
+*/

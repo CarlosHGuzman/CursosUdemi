@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: #457b9d;
+}
+div.contenedor{
+    width:80%;
+    height: 20%;
+    overflow: auto;
+    margin: auto;
+    border: 3px dashed #a8dadc;
+}
+span{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: larger;
+    background-color: #a8dadc;
+    border: 1px solid #457b9d;
+    height: 50px;
+    padding: 5px;
+    display: inline-block; /*Esto hace que este en linea y ademas se respete el alto que este tiene*/
+}
+/*          Float
+    -none           default
+    -left           izquierda
+    -right          derecha
+
+            Oveflow-x o Overflow-y
+
+    -visible        default, se muestra todo lo que se sale del elementos div.
+    -hidden         Todo lo que se sale del elemento div se oculta.
+    -scroll         Nos permite desplazar en la caja para mirar el contenido.
+    -auto           Se muestra la barra de scroll si es necesaria. Se debe tener en cuenta
+                    que esta propiedad se aplica lo del scroll si tiene un alto si no pues se ajusta y ya.
+
+        TIPOS DE POSICIONAMIENTO
+
+    -static         Valor por defecto, esto hace que los elementos de tipo top lef no tengan imporntancia.
+    -relative       Se va a mover entorno a su posicion natural de forma relativa, afecta valores como top, right, left, bottom
+                    y quedara su espacio natural si este lo movemos.
+    -fixed          Este elemento se mantendra en la posicion que le indiquemos durante toda la pagina, es decir, su posicion natura no se 
+                    respeta y ademas los otros elementos podran estar debajo de este.
+    -absolute       Se va posicionar de acuerdo al padre es decir al div o la pagina donde este, no puede ser de tipo estatico.
+    -sticky         Se debe utilizar una de las propiedades top right bottom left, se va a reservar su posicion natural y cuando nosotros nos movamos 
+                    con el scroll esta se va a quedar en la partida de arriba arrastrandose con el resto de la pagina.
+    - z-index       Este va a indicar que elemento tendra prioridad sobre cual elemento negativos ultimos positivos primeros
+*/
