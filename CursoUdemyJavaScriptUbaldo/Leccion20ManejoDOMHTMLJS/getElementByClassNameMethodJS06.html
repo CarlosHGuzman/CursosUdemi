@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset = "UTF-8"/>
+        <title>Ejemplo DOM con JavaScript</title>
+        <style>
+            .azul{
+                color: rgb(255, 187, 0);
+            }
+        </style>
+    </head>
+    <body>
+        <h1 class = "azul">Ejemplo DOM con JavaScript</h1>
+        <p class = "azul">Saludos!</p>
+        <p class = "azul">Otro parrafo</p>
+        <p class = "azul">Mas parrafos</p>
+        <pre>Este 
+            elemento va a ser super largo puesto que 
+            es una etiqueta <code>pre</code>
+        </pre>
+        <script>
+            // let etiqueta = document.getElementsByTagName("etiqueta");
+            let elementos = document.getElementsByClassName("azul"); // Si se pasa una etiqueta que no existe no ejecutara nada
+            console.log(`No. párrafos: ${elementos.length}`);
+            console.log("-------------------for normal---------------------");
+            for(let i = 0; i < elementos.length; i++){
+                console.log(`${i + 1} - elemento (for normal): ${elementos[i].innerHTML}`);
+            }
+            console.log("--------------------for of-------------------");
+            for(let elemento of elementos){
+                console.log(`elemento (for arg of args) ${elemento.innerText}`);
+            }
+        </script>
+    </body>
+</hmtl>

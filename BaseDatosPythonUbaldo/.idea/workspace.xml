@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="70888d6e-f33d-4aa1-a0a7-bae784f1ea1e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CursoUdemyPythonUbaldo/.idea/CursoUdemyPythonUbaldo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoUdemyPythonUbaldo/.idea/CursoUdemyPythonUbaldo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoUdemyPythonUbaldo/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoUdemyPythonUbaldo/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoUdemyPythonUbaldo/contrasena.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CursoUdemyPythonUbaldo/contrasenaAleatoria.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CursoUdemyPythonUbaldo/contrasenaAleatoria.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1zzyGnmpR9N1ONLLKS9oVhj9IWn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CursoUdemyPythonUbaldo" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="70888d6e-f33d-4aa1-a0a7-bae784f1ea1e" name="Changes" comment="" />
+      <created>1635165121946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635165121946</updated>
+    </task>
+    <servers />
+  </component>
+</project>

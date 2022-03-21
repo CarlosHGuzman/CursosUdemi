@@ -16,5 +16,5 @@ class Pelicula:
 
 if __name__ == '__main__':
     nombre = input("Por favor ingrese el nombre de la pelicula: ")
-    pelicula1 = Pelicula('nombre')
+    pelicula1 = Pelicula(nombre)
     print(pelicula1)

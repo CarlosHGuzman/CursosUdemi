@@ -1,0 +1,22 @@
+{
+    "java.project.sourcePaths": [
+        "12-02-ClaseAbstracta-Implementacion-CPJ/ClasesAbstractas/src/test",
+        "09-02-Sobrecarga-Constructores-CFJ/Aritmetica/src/operaciones",
+        "09-01-PalabraInstanceOf-CPJ/InstanceOf/src/test",
+        "07-01-ClasesJava-CFJ/HolaMundoJava/src",
+        "05-ConcatenacionVariables/HolaMundoJava/src",
+        "04-08-PrecedenciaOperadores-CFJ/HolaMundoJava/src",
+        "04-07-OperadorTernario-CFJ/HolaMundoJava/src",
+        "04-04-OperadoresIgualdad/HolaMundoJava/src",
+        "04-03-OperadoresUnarios-CFJ/HolaMundoJava/src",
+        "04-02-ForEachObjects-CPJ/ForEach/src/test",
+        "04-01-OperadoresAritmeticos-CFJ/HolaMundoJava/src",
+        "03-08-ConversionTipos-parte2/HolaMundoJava/src",
+        "03-07-ConversionTipos-parte1/HolaMundoJava/src",
+        "03-05-TipoChar/HolaMundoJava/src",
+        "03-04-InferenciaTiposVar/HolaMundoJava/src",
+        "03-01-TiposNumericos-Byte/HolaMundoJava/src",
+        "02-03-Enumeraciones-TestContinentes-CPJ/Enumeraciones/src",
+        "Enumeraciones2-otro-ejemplo/Enumeraciones2/src/test"
+    ]
+}

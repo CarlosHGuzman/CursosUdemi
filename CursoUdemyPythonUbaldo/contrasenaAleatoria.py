@@ -4,7 +4,7 @@ from datetime import datetime
 
 
 otrosCaracteres = "áÁäÄåÅàÀâÂéÉêÊëËèÈíÍîÎïÏìÌóñÓÑöÖ¡ôæÔÆòðÒÐøßØþúÞÚçüÇÜœùŒÙÿûÛ"
-characters = list(string.ascii_letters + string.digits + "!@#$%^&*()ñ{+*´|°" + otrosCaracteres)
+characters = list(string.ascii_letters + string.digits + "!@#$%^&*()ñ{+*´|°")
 password = []
 
 
@@ -21,9 +21,12 @@ def generate_random_password():
     print("".join(password))
 
 
+nombre = input("Ingrese el nombre del sitio: ")
+
 generate_random_password()
 
 with open("contrasena.txt", 'a', encoding='utf8') as contrasena:
+    contrasena.write(f"Sitio: {nombre}, ")
     contrasena.write(f'dia: {datetime.today()} contreseña: ')
     contrasena.write(''.join(password))
     contrasena.write('\n')

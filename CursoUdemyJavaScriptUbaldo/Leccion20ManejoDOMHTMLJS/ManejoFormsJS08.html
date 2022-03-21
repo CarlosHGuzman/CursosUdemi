@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset = "UTF-8"/>
+        <title>Ejemplo formulario con JavaScript</title>
+    </head>
+    <body>
+        <form id = "formulario">
+            <label for = "nombre">Nombre: </label>
+            <input type = "text" id = "nombre" name = "nombre" placeholder = "Carlos"/><br/>
+            <label for = "apellido">Apellido: </label>
+            <input type = "text" id = "apellido" name = "apellido" placeholder = "Guzmán"/><br/>
+        </form>
+        <button onclick = "MostrarValores()">Mostrar</button>
+        <div id = valores>
+
+        </div>
+        
+        <script>
+            function MostrarValores(){
+                // let nombre = document.forms["identificador del tag form"]
+                let formulario = document.forms["formulario"];
+                let text = '';
+                for(let elemento of formulario){
+                    text += elemento.value + "\n";
+                }
+                document.getElementById("valores").innerText = text;
+            }
+        </script>
+    </body>
+</hmtl>

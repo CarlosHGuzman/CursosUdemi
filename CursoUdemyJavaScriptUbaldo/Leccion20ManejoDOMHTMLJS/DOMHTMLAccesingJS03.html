@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset = "UTF-8"/>
+        <title>Ejemplo DOM con JavaScript</title>
+    </head>
+    <body>
+        <h1 id = "cabecero">Ejemplo DOM con JavaScript</h1>
+        <p id = "parrafo">Saludos!</p>
+        <!--La etiqueta <script> va a indicar el codigo de javascript y todo este 
+            debera de colocarse dentro de esta etiqueta
+            El script debera de estar después de los elementos que queremos trabajar con el-->
+
+
+            <!--Para poder acceder desde javascript a nuestras etiquetas de una manera basica
+            lo haremos atravemos de un id-->
+            <script>
+            // Regresa un objeto
+            let cabeceroObjeto = document.getElementById("cabecero"); 
+            console.log("Valor cabecero objeto: ", cabeceroObjeto);
+            console.log("Valor cabecero objeto con texto: ", cabeceroObjeto.innerHTML);
+            // Regresa un texto gracias a la propiedad .innerHTML
+            let cabeceroTexto = document.getElementById("cabecero").innerHTML;
+            console.log("Valor cabecero texto: " + cabeceroTexto)
+
+            let parrafoObjeto = document.getElementById("parrafo");
+            console.log("Valor objeto parrafo ", parrafoObjeto);
+            let parrafoTexto = document.getElementById("parrafo").innerText;
+            console.log("Valor texto parrafo: " + parrafoTexto);
+
+
+            console.log("Saludos desde JavaScript")
+        </script>
+    </body>
+</hmtl>

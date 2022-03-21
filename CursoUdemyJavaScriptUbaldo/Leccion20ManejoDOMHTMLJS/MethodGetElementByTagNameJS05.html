@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<hmtl>
+    <head>
+        <meta charset = "UTF-8"/>
+        <title>Ejemplo DOM con JavaScript</title>
+    </head>
+    <body>
+        <h1>Ejemplo DOM con JavaScript</h1>
+        <p>Saludos!</p>
+        <p>Otro parrafo</p>
+        <p>Mas de parrafo</p>
+        <pre>Este 
+            parrafo va a ser super largo puesto que 
+            es una etiqueta <code>pre</code>
+        </pre>
+        <script>
+            // let etiqueta = document.getElementsByTagName("etiqueta");
+            let parrafos = document.getElementsByTagName("p"); // Si se pasa una etiqueta que no existe no ejecutara nada
+            console.log(`No. párrafos: ${parrafos.length}`);
+            console.log("-------------------for normal---------------------");
+            for(let i = 0; i < parrafos.length; i++){
+                console.log(`${i + 1} - Parrafo (for normal): ${parrafos[i].innerHTML}`);
+            }
+            console.log("--------------------for of-------------------");
+            for(let parrafo of parrafos){
+                console.log(`Parrafo (for arg of args) ${parrafo.innerText}`);
+            }
+        </script>
+    </body>
+</hmtl>
