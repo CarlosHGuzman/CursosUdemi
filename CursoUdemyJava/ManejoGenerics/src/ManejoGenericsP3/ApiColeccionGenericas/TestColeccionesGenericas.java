@@ -1,12 +1,15 @@
-package ApiCollectionsP3.test;
+package ManejoGenericsP3.ApiColeccionGenericas;
 
 import java.util.*;
 import javax.swing.JOptionPane;
 
-public class TestColecciones {
+public class TestColeccionesGenericas {
 
     public static void main(String[] args) {
-        List miLista = new ArrayList();
+        //Podemos indicar que la lista va ser de un tipo en especifico con la notacion de diamante
+        List<String> miLista = new ArrayList<>();
+        //Ya que no estamos utilizando un tipo tan generico como lo es object
+        //Solo podremos agregar valores de tipo String;
         miLista.add("Lunes");
         miLista.add("Martes");
         miLista.add("Miercoles");
@@ -14,6 +17,7 @@ public class TestColecciones {
         miLista.add("Viernes");
         miLista.add("Sabado");
         miLista.add("Domingo");
+        String elemento = miLista.get(0); //Trabajar con el tipo definido nos evita hacer conversiones en caso de que se requiera
         imprimir(miLista);
 
         Set miSet = new HashSet(); //Este no garantiza que se mantenga el orden en que se agregaron
@@ -25,26 +29,29 @@ public class TestColecciones {
         miSet.add("Sabado");
         miSet.add("Domingo");
         miSet.add("Domingo"); //No se puede repetir los elementos que ya existen.
-        imprimir(miSet);
+        //imprimir(miSet);
         
         Map miMapa = new HashMap();
         miMapa.put("Llave 1", "valor 1");// para cargar valores se debe utilizar mapa.put(llave, valor); llave:valor;
         miMapa.put("Llave 2", "valor 2");
         miMapa.put("Llave 3", "valor 3");
         
-        String elemento = (String) miMapa.get("valor 1"); //Esto regresa un objeto por ende se debe de convertir 
+        //String elemento = (String) miMapa.get("valor 1"); //Esto regresa un objeto por ende se debe de convertir 
         System.out.println("elemento " + elemento);
         
         //para obtener las llaves se utiliza el metodo mapa.keySet(); el cual regresa
         //un set de las llaves por ende no se imprimira en orden
-        imprimir(miMapa.keySet());
+        //imprimir(miMapa.keySet());
         
         //para obtener todos los valores de las llaves se utiliza el metodo mapa.values(); el cual regresa
         //un set de los valores por ende no se imprimira en orden
-        imprimir(miMapa.values());
+        //imprimir(miMapa.values());
     }
 
-    public static void imprimir(Collection coleccion) {
+    //Se puede seguir utilizando el tipo generico ya que no hay problema, pero tambien podemos
+    //declarar que la coleccion que se va recibir va ser de un tipo en especifico
+    //Una ventaja que tiene trabajar con tipos mas especificos es que podremos utilizar sus metodos
+    public static void imprimir(Collection<String> coleccion) {
         Object seguir = JOptionPane.showInputDialog(null, "Como dese recorrer la coleccion: ", "Impresion coleccion", JOptionPane.QUESTION_MESSAGE, null, new Object[]{"for each", "Lambda"}, "for each");
         if ("for each".equals((String) seguir)) {
             for (Object elemento : coleccion) {
