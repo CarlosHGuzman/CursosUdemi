@@ -9,7 +9,7 @@ public class TestExcepciones {
             resultado = 10/0;
         }catch(Exception e){ //Exception variable que va almacenar nuestro error ya que arroja un String
             JOptionPane.showMessageDialog(null, "Ocurrio un error inesperado", "Error", 0);
-            e.printStackTrace(System.out); //printStackTrace lo que hace es imprimir la pila de exceciones o fila
+            e.printStackTrace(System.out); //printStackTrace lo que hace es imprimir la pila de excepciones o fila
         }
         JOptionPane.showMessageDialog(null, "Division entre 0: " + resultado);
     }

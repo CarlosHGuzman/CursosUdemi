@@ -10,7 +10,7 @@ public class TestExcepciones {
         int resultado = 0; //se declara por fuera para que la podamos utilizar fuera del bloque try catch
         try{
             resultado = Aritmetica.division(10,0);
-        }catch(OperacionExcepcion e){//se suele colocar las excepciones de menor jerarquia a mayor jerarquia para asi terminar ocn la de Exception
+        }catch(OperacionExcepcion e){//se suele colocar las excepciones de menor jerarquia a mayor jerarquia para asi terminar con la clase Exception
             System.out.println("Ocurrio un error de tipo Operacion Exception: ");
             System.out.println(e.getMessage());
         }
