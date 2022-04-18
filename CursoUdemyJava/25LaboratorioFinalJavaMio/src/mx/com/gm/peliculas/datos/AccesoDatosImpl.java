@@ -2,8 +2,6 @@ package mx.com.gm.peliculas.datos;
 
 import java.io.*;
 import java.util.*;
-import javax.swing.JFileChooser;
-import javax.swing.JOptionPane;
 import mx.com.gm.peliculas.domain.Pelicula;
 import mx.com.gm.peliculas.excepciones.*;
 
